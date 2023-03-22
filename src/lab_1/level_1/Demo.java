@@ -6,13 +6,13 @@ public class Demo {
         Car sedan = sedanFactory.createCar();
         sedan.drive();
 
-        CarFactory suvFactory = new MinivanFactory();
-        Car suv = suvFactory.createCar();
-        suv.drive();
+        CarFactory minivanFactory = new MinivanFactory();
+        Car minivan = minivanFactory.createCar();
+        minivan.drive();
 
-        CarFactory sportsCarFactory = new HatchbackFactory();
-        Car sportsCar = sportsCarFactory.createCar();
-        sportsCar.drive();
+        CarFactory hatchbackFactory = new HatchbackFactory();
+        Car hatchback = hatchbackFactory.createCar();
+        hatchback.drive();
 
         /*
         Output:
