@@ -1,7 +1,5 @@
 package lab_1.implementation;
 
-public interface Coffee {
+public interface Fruit {
     String getName();
-
-    double getPrice();
 }
